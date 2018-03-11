@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Random Quotes
+    link(rel='stylesheet prefetch', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet prefetch', href='https://fonts.googleapis.com/css?family=Handlee')
+    link(rel='stylesheet', href='css/style.css')
+  body
+    .quote-box
+      .quote-text
+        i.fa.fa-quote-left
+        span#quote-display
+      #quote-author
+      a.twitter(target='_blank')
+        button#twitter
+          i.fa.fa-twitter
+      a.tumblr(target='_blank')
+        button#tumblr
+          i.fa.fa-tumblr
+      button#newQuote New Quote
+      p.me
+        | by 
+        a(href='#') Boylin
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js')
+    script(src='js/index.js')

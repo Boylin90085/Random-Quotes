@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: Handlee, serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #50514F;
+  color: #50514F;
+}
+
+.quote-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 40px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.quote-box .quote-text {
+  height: auto;
+  width: 450px;
+  font-size: 35px;
+}
+.quote-box .quote-text i {
+  margin-right: 10px;
+}
+.quote-box #quote-author {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+  background-color: #50514F;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+button:hover {
+  color: #50514F;
+}
+
+#newQuote {
+  position: absolute;
+  right: 40px;
+  height: 50px;
+  padding: 10px;
+}
+
+#twitter, #tumblr {
+  height: 50px;
+  width: 50px;
+}
+
+.me {
+  color: white;
+  position: absolute;
+  bottom: -12%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.me a {
+  text-decoration: none;
+  color: white;
+}
