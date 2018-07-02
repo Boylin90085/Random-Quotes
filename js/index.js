@@ -13,8 +13,8 @@ function getQuotes(){
   success: function(data){
   // var newData = JSON.parse(data);
   // console.log(data);
-  Quote = data.quote;
-  Author = data.author;
+  Quote = data[0].quote;
+  Author = data[0].author;
 
   $(".quote-text").animate({
    opacity: 0 
